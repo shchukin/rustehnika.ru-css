@@ -3,3 +3,29 @@
 .wrap {
     max-width: 1440px;
 }
+
+
+/* Добавляем иконку Play к видосам */
+.video-reviews__img {
+    position: relative;
+}
+
+.video-reviews__img::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 20%;
+    aspect-ratio: 1/1;
+    background-color: rgba(38, 38, 39, 0.7);
+    background-image: url(./play.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    transition: filter 200ms ease;
+}
+
+.video-reviews__item:hover .video-reviews__img {
+    filter: brightness(1.05) contrast(1.05);
+}
