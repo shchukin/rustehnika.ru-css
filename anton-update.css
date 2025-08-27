@@ -21,7 +21,7 @@
         width: 20%;
         aspect-ratio: 1/1;
         background-color: rgba(38, 38, 39, 0.7);
-        background-image: url(./play.svg);
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRjVGNkY3IiBkPSJNMTcuNzgxNyAxMi4zODE5TDguNzgxNzYgMTcuODkxQzguNDU0NDkgMTguMTA5MSA4LjE4MTc2IDE3Ljk0NTUgOC4xODE3NiAxNy41NjM3VjYuNDM2NDdDOC4xODE3NiA2LjA1NDY1IDguNDU0NDkgNS44OTEwMiA4Ljc4MTc2IDYuMTA5MkwxNy43ODE3IDExLjYxODNDMTcuODQ5OSAxMS42NTYgMTcuOTA2OCAxMS43MTEzIDE3Ljk0NjQgMTEuNzc4NUMxNy45ODU5IDExLjg0NTYgMTguMDA2OCAxMS45MjIxIDE4LjAwNjggMTIuMDAwMUMxOC4wMDY4IDEyLjA3OCAxNy45ODU5IDEyLjE1NDUgMTcuOTQ2NCAxMi4yMjE3QzE3LjkwNjggMTIuMjg4OCAxNy44NDk5IDEyLjM0NDIgMTcuNzgxNyAxMi4zODE5WiIvPjwvc3ZnPg==);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
