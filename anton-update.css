@@ -54,3 +54,34 @@
         max-width: none !important;
     }
 }
+
+
+
+/* Убираем отступ у последнего фильтра, чтобы ниже он не поломал отступы.
+   Похоже на то, что у этого
+ */
+
+.check-wrap:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Добавляем фильтр "Популярные" */
+
+.filter-item__values--popular {
+    padding-top: 16px;
+    margin-left: -16px;
+    padding-left: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    background-color: #F3F3F3;
+    border-radius: 3px;
+}
+    .filter-item__sub-heading {
+        margin-bottom: 12px;
+        font-size: 15px;
+    }
+
+    .filter-item__values--popular .check-wrap {
+        font-weight: 500;
+    }

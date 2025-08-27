@@ -1274,8 +1274,8 @@ works properly when clicked or hovered */
 @font-face {
     font-display: swap;
     font-family: 'PT Root UI';
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Light.woff") format("woff");
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Light.woff2") format("woff");
+    src: url("./PT-Root-UI_Light.woff") format("woff");
+    src: url("./PT-Root-UI_Light.woff2") format("woff");
     font-weight: 300;
     font-style: normal;
 }
@@ -1283,8 +1283,8 @@ works properly when clicked or hovered */
 @font-face {
     font-display: swap;
     font-family: 'PT Root UI';
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Regular.woff") format("woff");
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Regular.woff2") format("woff");
+    src: url("./PT-Root-UI_Regular.woff") format("woff");
+    src: url("./PT-Root-UI_Regular.woff2") format("woff");
     font-weight: 400;
     font-style: normal;
 }
@@ -1292,8 +1292,8 @@ works properly when clicked or hovered */
 @font-face {
     font-display: swap;
     font-family: 'PT Root UI';
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Medium.woff") format("woff");
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Medium.woff2") format("woff");
+    src: url("./PT-Root-UI_Medium.woff") format("woff");
+    src: url("./PT-Root-UI_Medium.woff2") format("woff");
     font-weight: 500;
     font-style: normal;
 }
@@ -1301,8 +1301,8 @@ works properly when clicked or hovered */
 @font-face {
     font-display: swap;
     font-family: 'PT Root UI';
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Bold.woff") format("woff");
-    src: url("/local/templates/rustehnika/fonts/PT-Root-UI_Bold.woff2") format("woff");
+    src: url("./PT-Root-UI_Bold.woff") format("woff");
+    src: url("./PT-Root-UI_Bold.woff2") format("woff");
     font-weight: 700;
     font-style: normal;
 }
