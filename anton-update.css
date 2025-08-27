@@ -10,22 +10,47 @@
     position: relative;
 }
 
-.video-reviews__img::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    width: 20%;
-    aspect-ratio: 1/1;
-    background-color: rgba(38, 38, 39, 0.7);
-    background-image: url(./play.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 50%;
-    transition: filter 200ms ease;
-}
-
 .video-reviews__item:hover .video-reviews__img {
     filter: brightness(1.05) contrast(1.05);
+}
+    .video-reviews__img::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 20%;
+        aspect-ratio: 1/1;
+        background-color: rgba(38, 38, 39, 0.7);
+        background-image: url(./play.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 50%;
+        transition: filter 200ms ease;
+    }
+
+
+
+/* Если в модальном окне есть видео, не ограничиваем его ширину. Это особенно критично на мобилках. */
+
+.fancybox-slide--iframe {
+
+}
+
+@media (max-width: 768px) {
+
+    .fancybox-slide--iframe {
+        padding: 8px;
+    }
+}
+
+
+.fancybox-slide--iframe .fancybox-content {
+
+}
+
+@media (max-width: 1100px) {
+    .fancybox-slide--iframe .fancybox-content {
+        max-width: none !important;
+    }
 }
