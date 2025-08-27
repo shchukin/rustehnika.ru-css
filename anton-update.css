@@ -1,17 +1,26 @@
 
 /* Сделать сайт по ширине шапки (у шапки был увеличенный контенйнер -- подгоняем под него) */
 .wrap {
-    max-width: 1440px;
+    max-width: 1440px !important;
 }
 
+
+/* Убрать тступы вокруг карусели с видео */
+.section-video-block {
+    max-width: none !important;
+}
+
+.slider-wrapper {
+    padding: 0 !important;
+}
 
 /* Добавляем иконку Play к видосам */
 .video-reviews__img {
-    position: relative;
+    position: relative !important;
 }
 
 .video-reviews__item:hover .video-reviews__img {
-    filter: brightness(1.05) contrast(1.05);
+    filter: brightness(1.05) contrast(1.05) !important;
 }
     .video-reviews__img::after {
         content: "";
@@ -40,7 +49,7 @@
 @media (max-width: 768px) {
 
     .fancybox-slide--iframe {
-        padding: 8px;
+        padding: 8px !important;
     }
 }
 
@@ -62,26 +71,26 @@
  */
 
 .check-wrap:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 
 /* Добавляем фильтр "Популярные" */
 
 .filter-item__values--popular {
-    padding-top: 16px;
-    margin-left: -16px;
-    padding-left: 16px;
-    margin-bottom: 24px;
-    padding-bottom: 24px;
-    background-color: #F3F3F3;
-    border-radius: 3px;
+    padding-top: 16px !important;
+    margin-left: -16px !important;
+    padding-left: 16px !important;
+    margin-bottom: 24px !important;
+    padding-bottom: 24px !important;
+    background-color: #F3F3F3 !important;
+    border-radius: 3px !important;
 }
     .filter-item__sub-heading {
-        margin-bottom: 12px;
-        font-size: 15px;
+        margin-bottom: 12px !important;
+        font-size: 15px !important;
     }
 
     .filter-item__values--popular .check-wrap {
-        font-weight: 500;
+        font-weight: 500 !important;
     }
