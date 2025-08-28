@@ -94,3 +94,20 @@
     .filter-item__values--popular .check-wrap {
         font-weight: 500 !important;
     }
+
+@media (max-width: 768px) {
+
+    .filter-item__values--popular {
+        margin-left: -8px !important;
+        margin-right: -8px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+        .filter-item__sub-heading {
+
+        }
+
+        .filter-item__values--popular .check-wrap {
+
+        }
+}
